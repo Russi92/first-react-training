@@ -1,0 +1,20 @@
+
+
+
+
+.content-post{
+    border: 3px solid teal;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.post-title{
+    text-align: center;
+    font-weight: 700;
+}
+
+.post-body{
+    font-size: 13px;
+    text-align: center;
+}

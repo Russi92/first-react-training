@@ -1,0 +1,23 @@
+
+
+.parent-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    background: purple;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in-out;
+    margin: 5px;
+}
+
+
+.btn:hover{
+    background: rgb(94, 1, 94);
+}
