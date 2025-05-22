@@ -56,10 +56,6 @@ export default function AddDevices(){
             }}/>
 
             <button onClick={handleAddNewLang}>add new lang</button>
-
-            <div>hello world</div>
-            <div>hello world</div>
-            <div>hello world</div>
             
           
         </div>
