@@ -18,9 +18,11 @@ export default function AddDevices(){
     ])
 
     const frontList = front.map((name) => {
-        return(<div key={name.id}>{name.name} <i className="fa-solid fa-trash" onClick={() => {
+        return(<div key={name.id}>{name.name}
+         <i className="fa-solid fa-trash" onClick={() => {
             handleDeleteClick(name.id)
-        }} style={{fontSize : "14px" , color : "red" , cursor : "pointer"}}></i></div>)
+        }} style={{fontSize : "15px" , color : "red" , cursor : "pointer"}}></i>
+        </div>)
     })
 
     function handleAddNewLang (){
@@ -54,6 +56,10 @@ export default function AddDevices(){
             }}/>
 
             <button onClick={handleAddNewLang}>add new lang</button>
+
+            <div>hello world</div>
+            <div>hello world</div>
+            <div>hello world</div>
             
           
         </div>
